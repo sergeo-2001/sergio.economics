@@ -25,7 +25,7 @@
 - Countries
   [Argentina, Brasil, Chile, Colombia, Ecuador, Mexico, Peru, Venezuela]
 - Variables
-  [Bayesian VAR: Real GDP, Export price level (country), Net capital inflows (Direct investments, Portfolio equity investments, Portfolio debt investments, Other investments), Foreign reserves, Policy rate, EMBI spread, Real effective exchange rate; BAA spread; Export volume (Latin America), Export Price level (Latin America), Latin America activity; Bubble charts: Governance quality, Institutional quality, Net capital inflows, GDP growth]
+  [Bayesian VAR: Real GDP, Export price level (country), Net capital inflows (Direct investments, Portfolio equity investments, Portfolio debt investments, Other investments), Foreign reserves, Policy rate, EMBI spread, Real effective exchange rate; BAA spread; Latin America production, Latin America activity; Bubble charts: Governance quality, Institutional quality, Net capital inflows, GDP growth]
 - Frequency
   [annual, quarterly, monthly -> monthly]
 - Data-type
@@ -59,7 +59,7 @@
 
 **5.1.2 Export price level (country) endgenous and Export Price level (Latin America) exogenous**
 - Export Price shock IRFs - Sign Restrictions, Minnesota prior - Cross country effect
-  [restrictions: + Export Price level (Latin America), + Export volume (Latin America), + Latin America activity, + Real effective exchange rate, - Policy rate]
+  [restrictions: + Latin America production, + Latin America activity, + Real effective exchange rate, - Policy rate]
   [no restrictions: Real GDP, Export price level (country), Net capital inflows, Foreign reserves, EMBI spread]
 
 **5.2 Global financial shock**
@@ -67,8 +67,8 @@
   [restrictions: - BAA spread, + Real effective exchange rate, - Policy rate]
   [no restrictions: Real GDP, Export price leve (country) Net capital inflows, Foreign reserves, EMBI spread]
 - BAA Shock IRFs - Sign Restrictions, Minnesota prior - Cross country effect
-  [restrictions: - BAA spread, + Activity (Latin America), + Real effective exchange rate, - Policy rate]
-  [no restrictions: Export volume of (Latin America), Export Price level (Latin America), Real GDP, Export price level (country), Net capital inflows, Foreign reserves, EMBI spread]
+  [restrictions: - BAA spread, + Activity Latin America, + Real effective exchange rate, - Policy rate]
+  [no restrictions: Latin America production, Real GDP, Export price level (country), Net capital inflows, Foreign reserves, EMBI spread]
 
 **5.3 Exploratory analysis on growth, export price level and institutional and governance quality**
 - 2D bubbble charts - static
@@ -112,6 +112,7 @@
   [no restrictions: Real GDP, Net capital inflows, Foreign reserves, EMBI spread]
 
 **References**
+
 
 
 
