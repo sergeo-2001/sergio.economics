@@ -76,12 +76,9 @@
 - 3D bubble charts - dynamic ([github.io](https://sergiocarosio.github.io/economics/))
   [bubble size: standard deviation GDP growth; z axis: standard deviation Net capital inflows, y axis: mean GDP growth, x axis: mean Governance quality/mean Institutional quality]
 
-**[6. Potential extension of the analysis]**
-- Chow-Lin interpolation
-- Extend analysis to inflation and unemployment
-- Other
-
-**7. Conclusion**
+**6. Conclusion**
+- Further extensions [Chow-Lin interpolation, include inflation and unemployment]
+- Proper conclusion
 
 **Appendix 1**
 - Countries with highest levels of GDP in the period 2001-2024
@@ -115,6 +112,7 @@
   [no restrictions: Real GDP, Net capital inflows, Foreign reserves, EMBI spread]
 
 **References**
+
 
 
 
